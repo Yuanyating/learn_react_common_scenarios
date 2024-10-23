@@ -2,7 +2,7 @@
 nav:
   title: Components
   path: /components
-  order: 6
+  order: 2
 ---
 
 ## React.memo

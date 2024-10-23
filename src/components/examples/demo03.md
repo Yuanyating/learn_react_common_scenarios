@@ -4,6 +4,7 @@ nav:
   path: /components
   order: 3
 ---
+# useLayoutEffect
 
 ## useLayoutEffect 使用
 
@@ -54,6 +55,7 @@ export default Example;
 /**
  * title: 使用useLayoutEffect
  * description: 点击按钮，页面不会闪烁，因为useLayoutEffect发生在浏览器绘制之前
+ * 
  */
 
 import React, { useRef, useState, useLayoutEffect } from 'react';
@@ -89,3 +91,6 @@ export default Example;
 注意事项：
 
 - 避免过度使用 useLayoutEffect，因为它是同步的，可能会影响应用的性能。只有当你确实需要同步的 DOM 操作时才使用它。
+
+
+## useLayoutEffect 原理
